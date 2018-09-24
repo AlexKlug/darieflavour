@@ -8,7 +8,7 @@ class FrontPageController extends Controller
 {
 
     public function welcome() {
-        return view('welcome');
+        return view('layouts.frontPage');
     }
 
 }
