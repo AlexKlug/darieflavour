@@ -12,11 +12,19 @@ class FrontPageController extends Controller
 
 
 
-        $firstArticle = DB::table('articles')->limit(1)->get();
+        $firstArticle = DB::table('articles')->orderBy('id', 'desc')->limit(1)->get();
+
+        $secondArticle = DB::table('articles')->orderBy('id', 'desc')->offset(1)->limit(1)->get();
+
+        $thirdArticle = DB::table('articles')->orderBy('id', 'desc')->offset(2)->limit(1)->get();
 
 
 
-        return view('layouts.frontPage')->with('firstArticle', $firstArticle);
+        return view('layouts.frontPage', compact(
+            'firstArticle',
+            'secondArticle',
+            'thirdArticle'
+            ));
     }
 
 }
