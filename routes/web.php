@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'FrontPageController@welcome');
+
+Route::get('/unboxing', 'PagesController@unboxingPage');

@@ -9,16 +9,14 @@
 @include('elements.menu')
 
 <!-- Top Quote -->
-<div class="container-fluid quote">
+<div class="container-fluid quote3">
     <div class="makeupInspirationQuote">
-        <p><span>Til din daglige makeup inspiration</span></p>
+        <p><span>UNBOXING</span></p>
     </div>
     <div class="makeupInspirationQuoteMain">
-        <p>BE YOUR OWN KIND OF BEAUTIFUL</p>
+        <p>IT'S LIKE CHRISTMAS, EXCEPT IT'S WARMER</p>
     </div>
 </div>
-
-
 
 
 
