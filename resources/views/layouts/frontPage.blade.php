@@ -1,25 +1,8 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
 <head>
-<<<<<<< HEAD
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>DarieFlavour</title>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="{{ asset('/css/normalize.css') }}"/>
-    <link rel="stylesheet" href="{{ asset('/css/lightbox.css') }}"/>
-    <link rel="stylesheet" href="{{ asset('/css/stylesheet.css') }}"/>
-    <link rel="stylesheet" href="{{ asset('/css/mobileStylesheet.css') }}"/>
-    <link rel="stylesheet" href="{{ asset('/css/tabletStylesheet.css') }}"/>
-=======
     @include('elements.head')
->>>>>>> development
-
-
 
 </head>
 <body>
