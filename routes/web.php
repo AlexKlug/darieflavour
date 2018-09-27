@@ -14,3 +14,7 @@
 Route::get('/', 'FrontPageController@welcome');
 
 Route::get('/unboxing', 'PagesController@unboxingPage');
+
+Route::get('/{kategori}/{id}/{overskrift}', [
+    'uses'  =>  'ArticleController@getArticle'
+]);
