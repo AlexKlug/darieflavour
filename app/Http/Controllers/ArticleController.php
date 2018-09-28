@@ -11,8 +11,10 @@ class ArticleController extends Controller
 
         $Article = DB::table('articles')->where('id', $id)->get();
 
+        $SocialMedia = DB::table('socialemedier')->where('id', 1)->get();
 
-        return view('layouts.article', compact('Article'));
+
+        return view('layouts.article', compact('Article', 'SocialMedia'));
 
     }
 }
