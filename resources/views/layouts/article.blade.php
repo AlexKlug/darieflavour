@@ -58,7 +58,7 @@
         </div>
 
     <div class='col-sm-7'>
-        {{ $item->langArtikelTekst }}
+        {!! $item->langArtikelTekst !!}
     </div>
 
     @foreach($SocialMedia as $sm)

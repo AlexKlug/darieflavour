@@ -22,11 +22,11 @@
         <div class="mainMenu">
             <ul>
                 <a href="/"><li>FORSIDE</li></a>
-                <a href="unboxing"><li>UNBOXING</li></a>
-                <a href="anmeldelser.php"><li>ANMELDELSER</li></a>
-                <a href="hygge.php"><li>HYGGE</li></a>
-                <a href="konkurrencer.php"><li>KONKURRENCER</li></a>
-                <a href="shop.php"><li>SHOP</li></a>
+                <a href="/unboxing"><li>UNBOXING</li></a>
+                <a href="/anmeldelser"><li>ANMELDELSER</li></a>
+                <a href="/hygge"><li>HYGGE</li></a>
+                <a href="/konkurrencer"><li>KONKURRENCER</li></a>
+                <a href="/shop"><li>SHOP</li></a>
             </ul>
         </div>
 

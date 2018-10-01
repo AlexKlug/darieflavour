@@ -97,7 +97,7 @@
     <div class="container-fluid competitionSection">
         <div class="competitionBox">
             <h2>Vind</h2>
-            <p>Deltag i konkurrencer her i min blog. Altid lækre præmier.</p>
+            <p>Deltag i konkurrencer her på min blog. Altid lækre præmier.</p>
             <p><a href="#">Læs mere om konkurrencerne her</a></p>
         </div>
     </div>
