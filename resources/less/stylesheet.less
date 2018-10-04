@@ -362,14 +362,14 @@
 	padding-bottom: 0px;
 	.thirdPart {
 		padding: 0;
-		&:first-child {
+		&:nth-child(3n+1) {
 			padding-right: 25px;
 		}
-		&:nth-child(2) {
+		&:nth-child(3n+2) {
 			padding-right: 25px;
 			padding-left: 25px;
 		}
-		&:nth-child(3) {
+		&:nth-child(3n+3) {
 			padding-left: 25px;
 		}
 		a {
@@ -1758,4 +1758,31 @@
 	text-align: center;
 	margin-top: 20px;
 	display: none;
+}
+
+
+.showHidesearchNamesProducts {
+	background-color: #f4f0ed;
+	img {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		height: 100px;
+		&:hover {
+
+		}
+	}
+}
+
+.searchNamesProducts {
+	ul{
+		text-align: center;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		li {
+			display: inline;
+			border: 1px solid black;
+			padding: 10px;
+		}
+	}
 }

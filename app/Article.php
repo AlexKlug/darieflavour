@@ -10,6 +10,20 @@ class Article extends Model
 
     protected $fillable = [
         'id',
-        'overskrift'
+        'overskrift',
+        'langArtikelTekst',
+        'kortArtikelTekst',
+        'image',
+        'imageALT',
+        'kategori',
+        'kategoriSmall',
+        'dato',
+        'top',
+        'kategoriColor',
+        'author',
+        'authorIMG',
+        'brand',
+        'description',
+        'product',
     ];
 }

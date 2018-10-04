@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class ArticleController extends Controller
 {
-    public function getArticle($kategori, $id, $overskrift) {
+    public function getArticle($kategori, $product, $id, $overskrift) {
 
         $Article = DB::table('articles')->where('id', $id)->get();
 

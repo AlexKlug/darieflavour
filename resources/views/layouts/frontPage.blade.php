@@ -24,7 +24,7 @@
             <!-- Container to first article -->
             <div class="col-md-8 col-sm-12 col-xs-12 leftContainerTop">
                 @foreach ($firstArticle as $fA)
-                <a href="{{ $fA->kategoriSmall }}/{{ $fA->id }}/{{ $fA->overskrift }}">
+                  <a href="/{{ $fA->kategoriSmall }}/{{ $fA->product }}/{{ $fA->id }}/{{ $fA->overskrift }}">
                     <div class="leadingArticle">
                         <div class="insideLeadingArticle">
                             <img src="img/{{ $fA->image }}" alt="{{ $fA->imageALT }}">
@@ -40,7 +40,7 @@
             <!-- Container to second and third article -->
             <div class="col-md-4 col-sm-12 col-xs-12 rightContainerTop">
             @foreach ($secondArticle as $fA)
-                <a href="{{ $fA->kategoriSmall }}/{{ $fA->id }}/{{ $fA->overskrift }}">
+                <a href="/{{ $fA->kategoriSmall }}/{{ $fA->product }}/{{ $fA->id }}/{{ $fA->overskrift }}">
                     <div class="leadingArticle">
                         <div class="insideLeadingArticle">
                             <img src="img/{{ $fA->image }}" alt="{{ $fA->imageALT }}">
@@ -54,7 +54,7 @@
             @endforeach
 
             @foreach ($thirdArticle as $fA)
-                <a href="{{ $fA->kategoriSmall }}/{{ $fA->id }}/{{ $fA->overskrift }}">
+                <a href="/{{ $fA->kategoriSmall }}/{{ $fA->product }}/{{ $fA->id }}/{{ $fA->overskrift }}">
                     <div class="leadingArticle">
                         <div class="insideLeadingArticle">
                             <img src="img/{{ $fA->image }}" alt="{{ $fA->imageALT }}">
@@ -77,7 +77,7 @@
             <div class="row">
             @foreach ($fourthToSixthArticle as $fA)
                 <div class="col-md-4 col-sm-12 col-xs-12 thirdPart">
-                    <a href="{{ $fA->kategoriSmall }}/{{ $fA->id }}/{{ $fA->overskrift }}">
+                    <a href="/{{ $fA->kategoriSmall }}/{{ $fA->product }}/{{ $fA->id }}/{{ $fA->overskrift }}">
                         <div class="leadingArticle">
                             <div class="insideLeadingArticle">
                                 <img src="img/{{ $fA->image }}" alt="{{ $fA->imageALT }}">

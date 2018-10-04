@@ -3,7 +3,7 @@
         <div class="searchFieldMobile">
             <form method="GET">
                 <div class="searchButtonBoxMobile">
-                    <img id="searchButtonMobile" src="img/searchIcon.png">
+                    <img id="searchButtonMobile" src="/img/searchIcon.png">
                     <input type="submit" name="submitButton" value="" class="imgClass" />
                 </div>
                 <input id="searchInputMobile" type="text" name="searchTerm" placeholder="Søg...">
@@ -12,7 +12,7 @@
 
         <div class="logo">
             <a href="index.php">
-                <img src="img/logoIcon.png">
+                <img src="/img/logoIcon.png">
             </a>
         </div>
 
@@ -34,7 +34,7 @@
             <form method="GET">
                 <input id="searchInput" type="text" name="searchTerm" placeholder="Søg...">
                 <div class="searchButtonBox">
-                    <img id="searchButton" src="img/searchIcon.png">
+                    <img id="searchButton" src="/img/searchIcon.png">
                     <input type="submit" name="submitButton" value="" class="imgClass" />
                 </div>
             </form>
