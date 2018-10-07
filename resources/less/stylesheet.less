@@ -1763,6 +1763,7 @@
 
 .showHidesearchNamesProducts {
 	background-color: #f4f0ed;
+	padding-top: 20px;
 	img {
 		margin-left: auto;
 		margin-right: auto;
@@ -1774,15 +1775,44 @@
 	}
 }
 
-.searchNamesProducts {
-	ul{
-		text-align: center;
-		padding-top: 50px;
-		padding-bottom: 50px;
-		li {
-			display: inline;
-			border: 1px solid black;
-			padding: 10px;
+
+.searchNamesProductsOuter {
+	background-color: #f4f0ed;
+	.searchNamesProducts {
+		ul{
+			text-align: center;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			margin-bottom: 0;
+			a {
+				li {
+					display: inline-block;
+					border: 1px solid black;
+					padding: 10px;
+					line-height: 1.6;
+					margin-bottom: 10px;
+					color: #000000;
+					&:hover {
+						background-color: rgba(255,136,154, .8);
+						color: white;
+					}
+				}
+				&:hover {
+					text-decoration: none;
+				}
+			}
 		}
 	}
+}
+
+.smalltextSection {
+	padding-top: 40px;
+	background-color: #fafafa;
+	padding-bottom: 40px;
+		.smallText {
+			margin-top: 0;
+			p {
+				margin-bottom: 0;
+			}
+		}
 }

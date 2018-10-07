@@ -15,10 +15,22 @@ Route::get('/', 'FrontPageController@welcome');
 
 Route::get('/unboxing', 'PagesController@unboxingPage');
 
+Route::get('/anmeldelser', 'PagesController@anmeldelserPage');
+
+Route::get('/hygge', 'PagesController@hyggePage');
+
 Route::get('/{kategori}/{product}/{id}/{overskrift}', [
     'uses'  =>  'ArticleController@getArticle'
 ]);
 
 Route::get('/unboxing/{product}', [
     'uses'  =>  'PagesController@fetchUnboxingProductArticles'
+]);
+
+Route::get('/anmeldelser/{product}', [
+    'uses'  =>  'PagesController@fetchAnmeldelserProductArticles'
+]);
+
+Route::get('/hygge/{product}', [
+    'uses'  =>  'PagesController@fetchHyggeProductArticles'
 ]);

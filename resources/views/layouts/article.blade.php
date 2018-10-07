@@ -8,15 +8,6 @@
 @include('elements.menu')
 
 
-
-
-
-
-
-
-
-
-
 @foreach($Article as $item)
 
 <div class='container-fluid article' style='
@@ -33,20 +24,6 @@
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

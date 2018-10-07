@@ -11,7 +11,7 @@
 <!-- Top Quote -->
 <div class="container-fluid quote3">
     <div class="makeupInspirationQuote">
-        <p><span>UNBOXING</span></p>
+        <p><span>HYGGE</span></p>
     </div>
     <div class="makeupInspirationQuoteMain">
         <p>IT'S LIKE CHRISTMAS, EXCEPT IT'S WARMER</p>
@@ -28,7 +28,7 @@
     <div class="container searchNamesProducts">
         <ul>
             @foreach($ProductKategori as $UA)
-            <a href="/unboxing/{{ $UA->product }}"><li>{{ $UA->product }}</li> </a>
+                <a href="/hygge/{{ $UA->product }}"><li>{{ $UA->product }}</li> </a>
             @endforeach
         </ul>
     </div>

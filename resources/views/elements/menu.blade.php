@@ -25,8 +25,7 @@
                 <a href="/unboxing"><li>UNBOXING</li></a>
                 <a href="/anmeldelser"><li>ANMELDELSER</li></a>
                 <a href="/hygge"><li>HYGGE</li></a>
-                <a href="/konkurrencer"><li>KONKURRENCER</li></a>
-                <a href="/shop"><li>SHOP</li></a>
+
             </ul>
         </div>
 
