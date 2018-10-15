@@ -11,7 +11,7 @@
         </div>
 
         <div class="logo">
-            <a href="index.php">
+            <a href="/">
                 <img src="/img/logoIcon.png">
             </a>
         </div>

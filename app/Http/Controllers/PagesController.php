@@ -14,7 +14,7 @@ class PagesController extends Controller
 
         $ProductKategori = DB::table('articles')->select('kategori','product')->where('kategori', 'Unboxing')->distinct()->get();
 
-        $UnboxingArticles = DB::table('articles')->where('kategori', 'Unboxing')->get();
+        $UnboxingArticles = DB::table('articles')->where('kategori', 'Unboxing')->orderBy('id', 'desc')->get();
 
         return view('layouts.unboxingPage', compact(
             'ProductKategori',
@@ -25,7 +25,7 @@ class PagesController extends Controller
 
         $ProductKategori = DB::table('articles')->select('kategori','product')->where('kategori', 'Unboxing')->distinct()->get();
 
-        $UnboxingArticles = DB::table('articles')->where('product', $product)->where('kategori', 'Unboxing')->get();
+        $UnboxingArticles = DB::table('articles')->where('product', $product)->where('kategori', 'Unboxing')->orderBy('id', 'desc')->get();
 
         return view('layouts.unboxingPage', compact(
             'ProductKategori',
@@ -41,7 +41,7 @@ class PagesController extends Controller
 
         $ProductKategori = DB::table('articles')->select('kategori','product')->where('kategori', 'Anmeldelse')->distinct()->get();
 
-        $UnboxingArticles = DB::table('articles')->where('kategori', 'Anmeldelse')->get();
+        $UnboxingArticles = DB::table('articles')->where('kategori', 'Anmeldelse')->orderBy('id', 'desc')->get();
 
         return view('layouts.anmeldelserPage', compact(
             'ProductKategori',
@@ -52,7 +52,7 @@ class PagesController extends Controller
 
         $ProductKategori = DB::table('articles')->select('kategori','product')->where('kategori', 'Anmeldelse')->distinct()->get();
 
-        $UnboxingArticles = DB::table('articles')->where('product', $product)->where('kategori', 'Anmeldelse')->get();
+        $UnboxingArticles = DB::table('articles')->where('product', $product)->where('kategori', 'Anmeldelse')->orderBy('id', 'desc')->get();
 
         return view('layouts.anmeldelserPage', compact(
             'ProductKategori',
@@ -67,9 +67,9 @@ class PagesController extends Controller
 
         $ProductKategori = DB::table('articles')->select('kategori','product')->where('kategori', 'Hygge')->distinct()->get();
 
-        $UnboxingArticles = DB::table('articles')->where('kategori', 'Hygge')->get();
+        $UnboxingArticles = DB::table('articles')->where('kategori', 'Hygge')->orderBy('id', 'desc')->orderBy('id', 'desc')->get();
 
-        return view('layouts.HyggePage', compact(
+        return view('layouts.hyggePage', compact(
             'ProductKategori',
             'UnboxingArticles'));
     }
@@ -78,9 +78,9 @@ class PagesController extends Controller
 
         $ProductKategori = DB::table('articles')->select('kategori','product')->where('kategori', 'Hygge')->distinct()->get();
 
-        $UnboxingArticles = DB::table('articles')->where('product', $product)->where('kategori', 'Hygge')->get();
+        $UnboxingArticles = DB::table('articles')->where('product', $product)->where('kategori', 'Hygge')->orderBy('id', 'desc')->get();
 
-        return view('layouts.HyggePage', compact(
+        return view('layouts.hyggePage', compact(
             'ProductKategori',
             'UnboxingArticles'));
 

@@ -31,7 +31,24 @@
     <div class='articleContent' style='border-top: 3px solid {{ $item->kategoriColor }}'>
         <div class="row">
         <div class='col-sm-2'>
-            <div></div style="width: 100%; height:10px; background-color: white;">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- InsideArticle -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:120px;height:600px"
+                 data-ad-client="ca-pub-6539542239444581"
+                 data-ad-slot="1595776955"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- InsideArticle -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:120px;height:600px"
+                 data-ad-client="ca-pub-6539542239444581"
+                 data-ad-slot="1595776955"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </div>
 
     <div class='col-sm-7'>

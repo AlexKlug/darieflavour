@@ -10,7 +10,7 @@
     <!-- Top Quote -->
     <div class="container-fluid quote">
         <div class="makeupInspirationQuote">
-            <p><span>Til din daglige makeup inspiration</span></p>
+            <p><span>Makeup inspiration</span></p>
         </div>
         <div class="makeupInspirationQuoteMain">
             <p>BE YOUR OWN KIND OF BEAUTIFUL</p>
@@ -30,7 +30,7 @@
                             <img src="img/{{ $fA->image }}" alt="{{ $fA->imageALT }}">
                             <div class="infoLeadingArticle" style="border-top: solid 2px">
                                 <h1>{{ $fA->overskrift }}</h1>
-                                <p><span>{{ $fA->author }}</span> - <i>{{ $fA->dato }} | {{ $fA->kategori }}</i></p>
+                                <p><i>{{ $fA->dato }} | {{ $fA->kategori }}</i></p>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                             <img src="img/{{ $fA->image }}" alt="{{ $fA->imageALT }}">
                             <div class="infoLeadingArticle" style="border-top: solid 2px">
                                 <h1>{{ $fA->overskrift }}</h1>
-                                <p><span>{{ $fA->author }}</span> - <i>{{ $fA->dato }} | {{ $fA->kategori }}</i></p>
+                                <p><i>{{ $fA->dato }} | {{ $fA->kategori }}</i></p>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                             <img src="img/{{ $fA->image }}" alt="{{ $fA->imageALT }}">
                             <div class="infoLeadingArticle" style="border-top: solid 2px">
                                 <h1>{{ $fA->overskrift }}</h1>
-                                <p><span>{{ $fA->author }}</span> - <i>{{ $fA->dato }} | {{ $fA->kategori }}</i></p>
+                                <p><i>{{ $fA->dato }} | {{ $fA->kategori }}</i></p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                                 <img src="img/{{ $fA->image }}" alt="{{ $fA->imageALT }}">
                                 <div class="infoLeadingArticle" style="border-top: solid 2px">
                                     <h1>{{ $fA->overskrift }}</h1>
-                                    <p><span>{{ $fA->author }}</span> - <i>{{ $fA->dato }} | {{ $fA->kategori }}</i></p>
+                                    <p><i>{{ $fA->dato }} | {{ $fA->kategori }}</i></p>
                                 </div>
                             </div>
                         </div>
@@ -94,6 +94,20 @@
         </div>
     </div>
 
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- AflangReklameVertical -->
+    <div class="centerAd">
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:728px;height:90px"
+             data-ad-client="ca-pub-6539542239444581"
+             data-ad-slot="1552282956"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+
     <div class="container-fluid competitionSection">
         <div class="competitionBox">
             <h2>Vind</h2>
@@ -102,6 +116,17 @@
         </div>
     </div>
 
+    <div class="centerAd">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- AflangReklameVertical -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:728px;height:90px"
+         data-ad-client="ca-pub-6539542239444581"
+         data-ad-slot="1552282956"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    </div>
     @include('elements.footer')
 
     </body>

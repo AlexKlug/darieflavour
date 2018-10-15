@@ -45,7 +45,7 @@
                                 <img src="/img/{{ $fA->image }}" alt="{{ $fA->imageALT }}">
                                 <div class="infoLeadingArticle" style="border-top: solid 2px">
                                     <h1>{{ $fA->overskrift }}</h1>
-                                    <p><span>{{ $fA->author }}</span> - <i>{{ $fA->dato }} | {{ $fA->kategori }}</i></p>
+                                    <p><i>{{ $fA->dato }} | {{ $fA->kategori }}</i></p>
                                 </div>
                             </div>
                         </div>
