@@ -19,6 +19,10 @@ Route::get('/anmeldelser', 'PagesController@anmeldelserPage');
 
 Route::get('/hygge', 'PagesController@hyggePage');
 
+Route::get('/konkurrencer', 'PagesController@konkurrencerPage');
+
+Route::get('/konkurrencer/{urlDescription}', 'KonkurrenceController@konkurrence');
+
 Route::get('/{kategori}/{product}/{id}/{overskrift}', [
     'uses'  =>  'ArticleController@getArticle'
 ]);

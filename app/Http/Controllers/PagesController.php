@@ -87,6 +87,14 @@ class PagesController extends Controller
     }
 
 
+    public function konkurrencerPage() {
+
+        $inActiveKonkurrencer = DB::table('konkurrencer')->where('active', 0)->orderBy('id', 'desc')->get();
+
+        return view('layouts.konkurrencerPage', compact('inActiveKonkurrencer'));
+    }
+
+
 
 
 
